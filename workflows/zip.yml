@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: Bret06/Omegacraft-Season-4-Resource-Pack
     - name: pull latest and remove old file from repo
       run: |
         git config --global user.name "Bret06"
@@ -14,6 +14,7 @@ jobs:
         git pull
         rm -f release.zip
     - name: Archive Release
+      uses: Bret06/Omegacraft-Season-4-Resource-Pack
       with:
         filename: 'release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
