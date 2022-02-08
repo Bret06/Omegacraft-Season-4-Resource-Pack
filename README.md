@@ -5,7 +5,6 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Release](https://img.shields.io/github/v/release/Bret06/Omegacraft-Season-4-Resource-Pack?color=brightgreen&label=Release&cacheSeconds=3600)](https://github.com/Bret06/Omegacraft-Season-4-Resource-Pack/releases)
-[![GitHub Downloads](https://img.shields.io/github/downloads/Bret06/Omegacraft-Season-4-Resource-Pack/total?label=Downloads&logo=github&cacheSeconds=3600)](https://github.com/Bret06/Omegacraft-Season-4-Resource-Pack/releases)
 
 This Resource Pack is the server resource pack created for the Minecraft server Omegacraft!
 
