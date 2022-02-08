@@ -1,0 +1,62 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.endbaby.new": {
+			"loop": true
+		},
+		"animation.phantom.base_pose": {
+			"loop": true,
+			"animation_length": 1.7167,
+			"bones": {
+				"body": {
+					"rotation": ["-query.target_x_rotation", 0, 0],
+					"position": [0, -20, 0]
+				},
+				"blink": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.7167": [0, 0, 0],
+						"0.7667": [1, 1, 1],
+						"1.1167": [1, 1, 1],
+						"1.1667": [0, 0, 0],
+						"1.7167": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.phantom.move": {
+			"loop": true,
+			"animation_length": 1.7167,
+			"bones": {
+				"tail": {
+					"rotation": ["variable.tailrotx", 0, 0]
+				},
+				"tailtip": {
+					"rotation": ["variable.tailrotx", 0, 0]
+				},
+				"blink": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.7167": [0, 0, 0],
+						"0.7667": [1, 1, 1],
+						"1.1167": [1, 1, 1],
+						"1.1667": [0, 0, 0],
+						"1.7167": [0, 0, 0]
+					}
+				},
+				"wing0": {
+					"rotation": [0, 0, "variable.wingrotz"]
+				},
+				"wing1": {
+					"rotation": [0, 0, "-variable.wingrotz"]
+				},
+				"wingtip0": {
+					"rotation": [0, 0, "variable.wingrotz"]
+				},
+				"wingtip1": {
+					"rotation": [0, 0, "-variable.wingrotz"]
+				}
+			}
+		}
+	}
+}

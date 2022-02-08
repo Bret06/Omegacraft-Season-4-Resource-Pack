@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"geometry.eegg": {
+		"texturewidth": 16,
+		"textureheight": 16,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0.5, 0],
+		"bones": [
+			{
+				"name": "unknown_bone",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [-2, 0, -2], "size": [4, 7, 4], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

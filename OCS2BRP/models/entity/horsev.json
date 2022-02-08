@@ -1,0 +1,153 @@
+{
+	"format_version": "1.8.0",
+	"geometry.horsev": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "Body",
+				"pivot": [0, 13, 9],
+				"cubes": [
+					{"origin": [-5, 11, -11], "size": [10, 10, 22], "uv": [0, 32]}
+				]
+			},
+			{
+				"name": "TailA",
+				"pivot": [0, 20, 11],
+				"rotation": [30, 0, 0],
+				"cubes": [
+					{"origin": [-1.5, 8, 9], "size": [3, 12, 4], "uv": [42, 36]}
+				]
+			},
+			{
+				"name": "leg0",
+				"pivot": [3, 11, 9],
+				"cubes": [
+					{"origin": [1, 0, 7], "size": [4, 11, 4], "uv": [48, 21], "mirror": true}
+				]
+			},
+			{
+				"name": "leg1",
+				"pivot": [-3, 11, 9],
+				"cubes": [
+					{"origin": [-5, 0, 7], "size": [4, 11, 4], "uv": [48, 21]}
+				]
+			},
+			{
+				"name": "leg2",
+				"pivot": [3, 11, -9],
+				"cubes": [
+					{"origin": [1, 0, -11], "size": [4, 11, 4], "uv": [48, 21], "mirror": true}
+				]
+			},
+			{
+				"name": "leg3",
+				"pivot": [-3, 11, -9],
+				"cubes": [
+					{"origin": [-5, 0, -11], "size": [4, 11, 4], "uv": [48, 21]}
+				]
+			},
+			{
+				"name": "Head",
+				"pivot": [0, 28, -6],
+				"cubes": [
+					{"origin": [-3, 28, -11], "size": [6, 5, 7], "uv": [0, 13]}
+				]
+			},
+			{
+				"name": "Ear1",
+				"parent": "Head",
+				"pivot": [0, 17, -3],
+				"rotation": [0, 0, 5],
+				"cubes": [
+					{"origin": [-0.5, 32, -6.01], "size": [2, 3, 1], "uv": [19, 16], "mirror": true}
+				]
+			},
+			{
+				"name": "Ear2",
+				"parent": "Head",
+				"pivot": [0, 17, -3],
+				"rotation": [0, 0, -5],
+				"cubes": [
+					{"origin": [-1.5, 32, -6.01], "size": [2, 3, 1], "uv": [19, 16]}
+				]
+			},
+			{
+				"name": "UMouth",
+				"parent": "Head",
+				"pivot": [0, 28, -6],
+				"cubes": [
+					{"origin": [-2, 28, -16], "size": [4, 5, 5], "uv": [0, 25]}
+				]
+			},
+			{
+				"name": "SaddleMouthL",
+				"parent": "Head",
+				"pivot": [0, 17, -3],
+				"cubes": [
+					{"origin": [2, 29, -15], "size": [1, 2, 2], "uv": [29, 5]}
+				]
+			},
+			{
+				"name": "SaddleMouthR",
+				"parent": "Head",
+				"pivot": [0, 17, -3],
+				"cubes": [
+					{"origin": [-3, 29, -15], "size": [1, 2, 2], "uv": [29, 5]}
+				]
+			},
+			{
+				"name": "Neck",
+				"parent": "Head",
+				"pivot": [0, 17, -8],
+				"cubes": [
+					{"origin": [-2, 16, -11], "size": [4, 12, 7], "uv": [0, 35]}
+				]
+			},
+			{
+				"name": "Mane",
+				"parent": "Neck",
+				"pivot": [0, 17, -3],
+				"cubes": [
+					{"origin": [-1, 17, -4], "size": [2, 16, 2], "uv": [56, 36]}
+				]
+			},
+			{
+				"name": "Bag1",
+				"pivot": [-5, 21, 11],
+				"rotation": [0, -90, 0],
+				"cubes": [
+					{"origin": [-14, 13, 11], "size": [8, 8, 3], "uv": [26, 21]}
+				]
+			},
+			{
+				"name": "Bag2",
+				"pivot": [5, 21, 11],
+				"rotation": [0, 90, 0],
+				"cubes": [
+					{"origin": [6, 13, 11], "size": [8, 8, 3], "uv": [26, 21], "mirror": true}
+				]
+			},
+			{
+				"name": "Saddle",
+				"pivot": [0, 22, 2]
+			},
+			{
+				"name": "SaddleMouthLine",
+				"pivot": [0, 17, -8]
+			},
+			{
+				"name": "SaddleMouthLineR",
+				"pivot": [0, 17, -8]
+			},
+			{
+				"name": "HeadSaddle",
+				"pivot": [0, 17, -8],
+				"rotation": [30, 0, 0]
+			}
+		]
+	}
+}

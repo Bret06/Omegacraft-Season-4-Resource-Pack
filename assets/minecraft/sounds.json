@@ -1,0 +1,42 @@
+{
+    "omega.music.limbo": {
+        "sounds": [
+            "omega/music/limbo"
+        ]
+    },
+    "omega.music.spawn": {
+        "sounds": [
+            "omega/music/spawn"
+        ]
+    },
+    "omega.music.daytime1": {
+        "sounds": [
+            "omega/music/day/daytime1"
+        ]
+    },
+    "omega.music.daytime2": {
+        "sounds": [
+            "omega/music/day/daytime2"
+        ]
+    },
+    "omega.music.daytime3": {
+        "sounds": [
+            "omega/music/day/daytime3"
+        ]
+    },
+    "omega.music.nighttime1": {
+        "sounds": [
+            "omega/music/night/nighttime1"
+        ]
+    },
+    "omega.music.nighttime2": {
+        "sounds": [
+            "omega/music/night/nighttime2"
+        ]
+    },
+    "omega.music.nighttime3": {
+        "sounds": [
+            "omega/music/night/nighttime3"
+        ]
+    }
+}

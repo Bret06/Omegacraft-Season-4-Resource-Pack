@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.evoker": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "part_visibility": [
+        { "*": true },
+        { "Armright": "!query.is_casting" },
+        { "Sleeveright": "!query.is_casting" },
+        { "Armleft": "!query.is_casting" },
+        { "Sleeveleft": "!query.is_casting" },
+        { "leftarm": "query.is_casting" },
+        { "leftSleeve": "query.is_casting" },
+        { "rightarm": "query.is_casting" },
+        { "rightSleeve": "query.is_casting" },
+        { "leftLeg": true },
+        { "rightLeg": true },
+        { "hat": true },
+        { "ha2t": true },
+        { "hat3": true },
+        { "hat4": true },
+        { "held_item": true },
+        { "body": true }
+      ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+	"format_version" : "1.8.0",
+  "animations": {
+    "animation.villager.baby_transform": {
+      "bones": {
+        "head": {
+          "scale": 1.50
+        }
+      },
+      "loop": true
+    },
+    "animation.villager.general": {
+      "bones": {
+        "arms": {
+          "position": [ 0.0, -1.0, -1.0 ],
+          "rotation": [ "-42.97 - this", 0.0, 0.0 ]
+        },
+						"blink": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.7167": [0, 0, 0],
+						"0.7667": [1, 1, 1],
+						"1.1167": [1, 1, 1],
+						"1.1667": [0, 0, 0],
+						"1.7167": [0, 0, 0]
+					}
+				}
+      },
+      "loop": true
+    },
+    "animation.villager.general.v1.0": {
+      "bones": {
+        "leftarm": {
+          "rotation": [ 0.0, 0.0, "((math.cos(query.life_time * 103.2) * 2.865) + 2.865) *-1.0" ]
+        },
+        "leftleg": {
+          "rotation": [ "-math.sin(query.life_time * 76.8) * 2.865", 0.0, 0.0 ]
+        },
+        "rightarm": {
+          "rotation": [ 0.0, 0.0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        }
+      },
+      "loop": true
+    },
+    "animation.villager.get_in_bed": {
+      "bones": {
+        "body": {
+          "position": [ 0.0, 0.0, -14.0 ],
+          "rotation": [ -90.0, 0.0, 0.0 ]
+        }
+      },
+      "loop": true
+    },
+    "animation.villager.move": {
+      "anim_time_update": "query.modified_distance_moved",
+      "bones": {
+        "leg0": {
+          "rotation": [ "(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0.0 ]
+        },
+        "leg1": {
+          "rotation": [ "(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0.0 ]
+        },
+        "leftLeg": {
+          "rotation": [ "(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0.0 ]
+        },
+        "rightLeg": {
+          "rotation": [ "(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0.0 ]
+        },
+        "rightArm": {
+          "rotation": [ "(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0.0 ]
+        },
+        "leftArm": {
+          "rotation": [ "(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0.0 ]
+        },
+        "Armright": {
+          "rotation": [ "(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0.0 ]
+        },
+        "Armleft": {
+          "rotation": [ "(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0.0 ]
+        }
+      },
+      "loop": true
+    },
+    "animation.villager.raise_arms": {
+      "bones": {
+        "arms": {
+          "rotation": [ "variable.raise_arms * -15.0", 0.0, 0.0 ]
+        }
+      },
+      "loop": true
+    }
+  }
+  }

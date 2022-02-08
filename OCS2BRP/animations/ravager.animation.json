@@ -1,0 +1,57 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ravager.biting": {
+			"loop": true,
+			"animation_length": 1.12,
+			"bones": {
+				"arm0": {
+					"rotation": {
+						"0.0": [-10, 0, 0],
+						"0.4": [-10, 20, 0],
+						"0.6": [-10, -30, 0],
+						"1.1167": [-10, -10, 0]
+					}
+				}
+			}
+		},
+		"animation.ravager.idle_mouth": {
+			"loop": true
+		},
+		"animation.ravager.roaring": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"arm0": {
+					"rotation": {
+						"0.0": [-5, 0, 0],
+						"0.3167": [-130, -25, 0],
+						"0.4333": [-30, -25, 0]
+					}
+				},
+				"arm1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3167": [-125, 35, 0],
+						"0.4333": [-45, 35, 0]
+					}
+				}
+			}
+		},
+		"animation.ravager.stunned": {
+			"loop": true
+		},
+		"animation.ravager.walk": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": ["math.cos(query.anim_time * 38.17) *  22.92", 0, 0]
+				},
+				"leg1": {
+					"rotation": ["math.cos(query.anim_time * 38.17) * -22.92", 0, 0]
+				}
+			}
+		}
+	}
+}

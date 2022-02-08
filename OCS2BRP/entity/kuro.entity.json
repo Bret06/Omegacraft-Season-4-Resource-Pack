@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "realm:kuro",
+      "materials": { "default": "wolf" },
+      "textures": {
+        "default": "textures/entity/kuro",
+        "angry": "textures/entity/kuro",
+        "tame": "textures/entity/kuro"
+      },
+      "geometry": {
+        "default": "geometry.kuro"
+      },
+      "animations": {
+        "sneak": "animation.cat.sneak",
+        "walk": "animation.cat.walk",
+        "sprint": "animation.cat.sprint",
+        "sit": "animation.cat.sit",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cat.baby_transform",
+        "lie_down": "animation.cat.lie_down"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.cat.look_at_target" },
+        { "move": "controller.animation.cat.move" },
+        { "baby": "controller.animation.cat.baby" }
+      ],
+      "render_controllers": [ "controller.render.wolf" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "realm:horsev",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cow" },
+      "textures": {
+        "base_brown": "textures/entity/horsev",
+        "base_white": "textures/entity/horsev",
+        "base_creamy": "textures/entity/horsev",
+        "base_chestnut": "textures/entity/horsev",
+        "base_black": "textures/entity/horsev",
+        "base_gray": "textures/entity/horsev",
+        "base_darkbrown": "textures/entity/horsev",
+        "markings_none": "textures/entity/horsev",
+        "markings_white": "textures/entity/horsev",
+        "markings_whitefield": "textures/entity/horsev",
+        "markings_whitedots": "textures/entity/horsev",
+        "markings_blackdots": "textures/entity/horsev",
+        "mule": "textures/entity/horsev",
+        "donkey": "textures/entity/horsev",
+        "skeleton": "textures/entity/horsev",
+        "zombie": "textures/entity/horsev",
+        "armor_none": "textures/entity/horse2/armor/horse_armor_none",
+        "armor_leather": "textures/entity/horse2/armor/horse_armor_leather",
+        "armor_iron": "textures/entity/horse2/armor/horse_armor_iron",
+        "armor_gold": "textures/entity/horse2/armor/horse_armor_gold",
+        "armor_diamond": "textures/entity/horse2/armor/horse_armor_diamond"
+      },
+      "geometry": {
+        "default": "geometry.horsev"
+      },
+      "animations": {
+        "setup": "animation.cow.setup",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          { "walk": "query.modified_move_speed" },
+          "look_at_target",
+          { "baby_transform": "query.is_baby" }
+        ]
+      },
+      "render_controllers": [ "controller.render.horse" ],
+	  "spawn_egg": {
+        "base_color": "#674226",
+        "overlay_color": "#000000"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "overrides": [
+    {
+      "model": "custom/item/sets/panda/pickaxe",
+      "predicate": {
+        "custom_model_data": 16
+      }
+    },
+    {
+      "model": "custom/item/sets/omega/pickaxe",
+      "predicate": {
+        "custom_model_data": 32
+      }
+    },
+    {
+      "model": "custom/item/sets/cake/pickaxe",
+      "predicate": {
+        "custom_model_data": 48
+      }
+    },
+    {
+      "model": "custom/item/sets/cookie/pickaxe",
+      "predicate": {
+        "custom_model_data": 64
+      }
+    },
+    {
+      "model": "custom/item/sets/midnight/pickaxe",
+      "predicate": {
+        "custom_model_data": 80
+      }
+    }
+  ],
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_pickaxe"
+  }
+}

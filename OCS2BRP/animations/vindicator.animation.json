@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vindicator.attack": {
+			"loop": true
+		},
+		"animation.vindicator.base": {
+			"loop": true
+		},
+		"animation.vindicator.bob": {
+			"loop": true
+		},
+		"animation.vindicator.riding.arms": {
+			"loop": true
+		},
+		"animation.vindicator.riding.legs": {
+			"loop": true,
+			"bones": {
+				"leg0": {
+					"rotation": ["-72.0 - this", "18.0 - this", "-this"]
+				},
+				"leg1": {
+					"rotation": ["-72.0 - this", "-18.0 - this", "-this"]
+				}
+			}
+		},
+		"animation.vindicator.walk": {
+			"loop": true
+		}
+	}
+}

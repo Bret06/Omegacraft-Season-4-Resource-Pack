@@ -1,0 +1,7 @@
+Added Enderbaby Spawns in The End (Drops Dragon Wings)
+Added Corrupted Spawns in The End
+Added Meglovania Music Disc (13)
+Added RPG Music to The Background
+Changed Elytra To Dragon Wings
+Grizzly Bears no longer drop vindicator drops
+Added Tavern Music Disc (Tab)

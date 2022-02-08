@@ -1,0 +1,38 @@
+{
+  "overrides": [
+    {
+      "model": "custom/item/sets/panda/hoe",
+      "predicate": {
+        "custom_model_data": 16
+      }
+    },
+    {
+      "model": "custom/item/sets/omega/hoe",
+      "predicate": {
+        "custom_model_data": 32
+      }
+    },
+    {
+      "model": "custom/item/sets/cake/hoe",
+      "predicate": {
+        "custom_model_data": 48
+      }
+    },
+    {
+      "model": "custom/item/sets/cookie/hoe",
+      "predicate": {
+        "custom_model_data": 64
+      }
+    },
+    {
+      "model": "custom/item/sets/midnight/hoe",
+      "predicate": {
+        "custom_model_data": 80
+      }
+    }
+  ],
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_hoe"
+  }
+}

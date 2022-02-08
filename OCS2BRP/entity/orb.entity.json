@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "realm:orb",
+      "materials": { "default": "ghast" },
+      "textures": {
+        "default": "textures/entity/boss/orb",
+        "shooting": "textures/entity/boss/orb_shoot"
+      },
+      "geometry": {
+        "default": "geometry.orb"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 19
+      },
+	        "scripts": {
+				        "scale": "30"
+      },
+      "animations": {
+        "move": "animation.ghast.move"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.ghast.move" }
+      ],
+      "render_controllers": [ "controller.render.ghast" ]
+    }
+  }
+}

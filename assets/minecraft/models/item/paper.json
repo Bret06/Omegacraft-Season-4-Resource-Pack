@@ -1,0 +1,104 @@
+{
+  "overrides": [
+    {
+      "model": "custom/entites/demon_eye/demon_eye",
+      "predicate": {
+        "custom_model_data": 256
+      }
+    },
+    {
+      "model": "custom/entites/demon_eye/demon_eye_hurt",
+      "predicate": {
+        "custom_model_data": 257
+      }
+    },
+    {
+      "model": "custom/entites/pets/slime_morph",
+      "predicate": {
+        "custom_model_data": 272
+      }
+    },
+    {
+      "model": "custom/entites/crab/crab_red",
+      "predicate": {
+        "custom_model_data": 288
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby",
+      "predicate": {
+        "custom_model_data": 304
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_hurt",
+      "predicate": {
+        "custom_model_data": 305
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_f1",
+      "predicate": {
+        "custom_model_data": 306
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_f2",
+      "predicate": {
+        "custom_model_data": 307
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_f3",
+      "predicate": {
+        "custom_model_data": 308
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_f4",
+      "predicate": {
+        "custom_model_data": 309
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_f1_hurt",
+      "predicate": {
+        "custom_model_data": 310
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_f2_hurt",
+      "predicate": {
+        "custom_model_data": 311
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_f3_hurt",
+      "predicate": {
+        "custom_model_data": 312
+      }
+    },
+    {
+      "model": "custom/entites/ender_dragon_baby/ender_dragon_baby_f4_hurt",
+      "predicate": {
+        "custom_model_data": 313
+      }
+    },
+    {
+      "model": "custom/cosmetics/hats/dragon_fight",
+      "predicate": {
+        "custom_model_data": 320
+      }
+    },
+    {
+      "model": "custom/ui/quest",
+      "predicate": {
+        "custom_model_data": 321
+      }
+    }
+  ],
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  }
+}

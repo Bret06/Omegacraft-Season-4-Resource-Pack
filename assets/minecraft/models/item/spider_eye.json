@@ -1,0 +1,10 @@
+{
+    "overrides":
+    [
+        {"model":"custom/item/demon_eye","predicate":{"custom_model_data":256}}
+    ],
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/spider_eye"
+  }
+}

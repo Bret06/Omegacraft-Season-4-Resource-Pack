@@ -1,0 +1,6 @@
+Added Grizzly Bear Mob (Spawns in Forests)
+Added Blaze King Mob (Spawns in the Nether)
+Changed Zombie Pigmen into Piglin
+Added Piglin King Mob (Spawns In The Nether)
+Added Frog Mob (Spawns in Swamp)
+Changed Glowstone Texture

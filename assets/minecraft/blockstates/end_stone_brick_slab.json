@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/end_stone_brick_slab" },
+        "type=top": { "model": "block/end_stone_brick_slab_top" },
+        "type=double,waterlogged=false": { "model": "block/end_stone_bricks" },
+        "type=double,waterlogged=true": { "model": "custom/block/chorus_soil" }
+    }
+}

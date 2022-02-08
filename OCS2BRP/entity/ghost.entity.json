@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "realm:ghost",
+      "materials": { "default": "bat" },
+      "textures": {
+        "default": "textures/entity/ghost"
+      },
+      "geometry": {
+        "default": "geometry.ghost"
+      },
+      "scripts": {
+        "scale": "1"
+	  },
+      "render_controllers": [ "controller.render.bat" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 18
+      }
+    }
+  }
+}
